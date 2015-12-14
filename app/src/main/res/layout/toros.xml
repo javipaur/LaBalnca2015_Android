@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:background="#f9d358"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/headtoros1" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView2" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+
+                <ImageView
+
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:padding="20px"
+                    android:layout_width="363dp"
+                    android:layout_height="210dp"
+                    android:src="@drawable/vaquillas25"
+                    android:id="@+id/imageView08" />
+
+                <ImageView
+
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:padding="20px"
+                    android:layout_width="363dp"
+                    android:layout_height="210dp"
+                    android:src="@drawable/toros25"
+                    android:id="@+id/imageView2" />
+
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:padding="20px"
+                    android:layout_width="363dp"
+                    android:layout_height="210dp"
+                    android:src="@drawable/vaquillas5"
+                    android:id="@+id/imageView03" />
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:padding="20px"
+                    android:layout_width="363dp"
+                    android:layout_height="210dp"
+                    android:src="@drawable/toros5"
+                    android:id="@+id/imageView04" />
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:padding="20px"
+                    android:layout_width="363dp"
+                    android:layout_height="210dp"
+                    android:src="@drawable/vaquillas6"
+                    android:id="@+id/imageView05" />
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:padding="20px"
+                    android:layout_width="363dp"
+                    android:layout_height="210dp"
+                    android:src="@drawable/toros6"
+                    android:id="@+id/imageView4" />
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:padding="20px"
+                    android:layout_width="363dp"
+                    android:layout_height="210dp"
+                    android:src="@drawable/vaquillas7"
+                    android:id="@+id/imageView06" />
+
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:padding="20px"
+                    android:src="@drawable/toros7"
+                    android:layout_width="363dp"
+                    android:layout_height="210dp"
+                    android:id="@+id/imageView5" />
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:padding="20px"
+                    android:layout_width="363dp"
+                    android:layout_height="210dp"
+                    android:src="@drawable/vaquillas8"
+                    android:id="@+id/imageView07" />
+
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:padding="20px"
+                    android:src="@drawable/toros8"
+                    android:layout_width="363dp"
+                    android:layout_height="210dp"
+                    android:id="@+id/imageView6" />
+
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:padding="20px"
+                    android:layout_width="363dp"
+                    android:layout_height="210dp"
+                    android:src="@drawable/vaquillas9"
+                    android:id="@+id/imageView3" />
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:padding="20px"
+                    android:layout_width="363dp"
+                    android:layout_height="210dp"
+                    android:src="@drawable/toros9"
+                    android:id="@+id/imageView23" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

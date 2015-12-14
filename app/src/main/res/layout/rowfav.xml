@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/tipo"
+        android:layout_width="130px"
+        android:text="tipo"
+        android:src="@drawable/unnamed"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/acto" />
+
+    <TextView
+        android:id="@+id/dia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/tipo"
+        android:layout_toEndOf="@+id/tipo" />
+
+    <TextView
+        android:id="@+id/hora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_below="@+id/dia"
+        android:layout_alignLeft="@+id/dia"
+        android:layout_alignStart="@+id/dia" />
+    <TextView
+        android:id="@+id/lugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_below="@+id/hora"
+        android:layout_alignLeft="@+id/hora"
+        android:layout_alignStart="@+id/hora" />
+
+    <TextView
+        android:id="@+id/acto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="acto"
+        android:layout_below="@+id/lugar"
+        android:layout_alignLeft="@+id/lugar"
+        android:layout_alignStart="@+id/lugar" />
+
+
+</RelativeLayout>

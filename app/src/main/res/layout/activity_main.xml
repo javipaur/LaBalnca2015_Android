@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/fondo"
+    android:layout_height="match_parent">
+
+
+    <ScrollView  xmlns:android = "http://schemas.android.com/apk/res/android"
+        android:id = "@+id/ScrollView01"
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:fillViewport = "true"
+        android:scrollbars = "none"  >
+
+        <RelativeLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/programageneral"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="84dp"
+                android:background="@drawable/headinicio"
+                android:id="@+id/imageView" />
+
+            <RelativeLayout
+                android:paddingTop="100px"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="60px"
+                android:layout_marginRight="60px"
+                android:layout_marginBottom="60px"
+                android:layout_below="@+id/imageView">
+
+                <ImageButton
+                    android:layout_width="62dp"
+                    android:layout_height="92dp"
+                    android:background="@drawable/programa_icon"
+                    android:id="@+id/programa"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <ImageButton
+                    android:layout_width="62dp"
+                    android:layout_height="92dp"
+                    android:background="@drawable/favoritos_icon"
+                    android:id="@+id/favoritos"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_alignTop="@+id/programa"
+                    android:layout_centerHorizontal="true" />
+
+                <ImageButton
+                    android:layout_width="62dp"
+                    android:layout_height="92dp"
+                    android:background="@drawable/conciertos_icon"
+                    android:id="@+id/conciertos"
+                    android:layout_alignTop="@+id/favoritos"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageButton
+                    android:layout_width="62dp"
+                    android:layout_height="92dp"
+                    android:id="@+id/toros"
+                    android:background="@drawable/toros"
+                    android:layout_marginTop="37dp"
+                    android:layout_below="@+id/programa"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <ImageButton
+                    android:layout_width="62dp"
+                    android:layout_height="92dp"
+                    android:id="@+id/dev"
+                    android:background="@drawable/dev"
+                    android:layout_above="@+id/info"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageButton
+                    android:layout_width="62dp"
+                    android:layout_height="92dp"
+                    android:id="@+id/info"
+                    android:background="@drawable/info"
+                    android:layout_below="@+id/toros"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="37dp" />
+
+                <ImageButton
+                    android:layout_width="62dp"
+                    android:layout_height="92dp"
+                    android:id="@+id/infantil"
+                    android:background="@drawable/infantil_icon"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_above="@+id/info"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

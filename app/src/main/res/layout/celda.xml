@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/general">
+
+
+
+    <ToggleButton
+        android:layout_width="150px"
+        android:layout_height="wrap_content"
+        android:textOff=""
+        android:textOn=""
+        android:text="favorito"
+        android:background="@drawable/favoritoicon"
+        android:id="@+id/favorito"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/tipo"
+        android:layout_alignParentTop="true" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_marginRight="30px"
+        android:layout_height="90dp"
+        android:id="@+id/tipo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Dia"
+        android:id="@+id/dia"
+        android:layout_alignTop="@+id/tipo"
+        android:layout_toRightOf="@+id/tipo"
+        android:layout_toEndOf="@+id/tipo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Hora"
+        android:id="@+id/hora"
+        android:layout_alignBottom="@+id/dia"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Descripcion Acto"
+        android:id="@+id/acto"
+        android:layout_below="@+id/dia"
+        android:layout_toRightOf="@+id/tipo"
+        android:layout_toLeftOf="@+id/favorito"
+        android:layout_toStartOf="@+id/favorito" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Lugar Acto"
+        android:id="@+id/lugar"
+        android:layout_below="@+id/acto"
+        android:layout_toRightOf="@+id/tipo"
+        android:layout_toLeftOf="@+id/favorito"
+        android:layout_toStartOf="@+id/favorito" />
+
+</RelativeLayout>
